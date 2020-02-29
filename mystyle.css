@@ -1,13 +1,13 @@
 * {
 	box-sizing: border-box; }
 p {
-	color: white; }
+	color: #FFFFFF; }
 html {
 	scroll-behavior: smooth; }
 
 body {
 	margin: 0;
-	background-color: #000ddd; }
+	background-color: #3560D2; }
 
 h6 {
 	color: #2e6930;
