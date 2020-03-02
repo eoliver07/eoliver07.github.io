@@ -164,11 +164,11 @@ ul.nav li a {
 
 ul.nav li a.active {
   background-color: #2e6930;
-  color: white; }
+  color: grey; }
 
 ul.nav li a:hover {
   background-color: #555;
-  color: white; }
+  color: blue; }
 
 @media screen and (max-width: 1200px) {
   ul.nav {
