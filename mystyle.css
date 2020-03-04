@@ -5,208 +5,211 @@ html {
 
 body {
 	margin: 0;
-	background-color: #3560D2; }
+	background-color: #3560D2; /*This changes the background color for the whole website blue.*/
+	font-family:"Comic Sans MS", cursive, sans-serif; /*This changes the font family for the body of the whole website to comic sans, cursive, sans serif.*/
+	font-weight:bold; /*This changes the font weight for the whole website to bold, as default.*/
+	font-size:12px; } /*This changes the font weight to 12 pixels for the whole website, as default.*/
 p {
-	color: white;
-	font-weight: bold;
-	font-family:"helvetica", cursive; }
+	color: white; /*This changes the color of the paragraphs to white.*/
+	font-weight: bold; /*This changes the font weight to bold for the paragraphs.*/
+	font-family:"helvetica", cursive; } /*This changes the font family for the paragraphs to helvetica, cursive.*/
  
 h6 {
-	color: #2e6930;
-	text-shadow: 0px 2px 2px #4d4d4d;
-	font-weight: bold;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 20px;
-	-webkit-text-stroke: 1px black; }
+	color: #06F8D7; /*This changes the color of the header-6 for the menu to a light blue.*/
+	text-shadow: 0px 2px 2px #CCCDD1; /*This adds a text shadow for the menu bar and cahnges on a X and Y axis, plus a grey color.*/
+	font-weight: bold; /*This changes the font weight of the menu words to bold.*/
+	font-family: "Courier New", Courier, monospace; /*This changes the font family of the menu bar to courier new, courier, and monospace.*/
+	font-size: 20px; /*This changes the font size of the menu words to 20 pixels.*/
+	-webkit-text-stroke: 1px black; } /*This is a layout engine that adjusts to a lot of browsers.*/
 
 .pic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 25px;
-	width: 90%;
-	background-color: black;
-	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2); }
+	display: block; /*This is a class that applies to all things labeled as "pic".*/
+	margin-left: auto; /*This adjusts the margin left of all "pic" elements as auto.*/
+	margin-right: auto; /*This adjusts the marhin left of all of the "pic" elements as auto.*/
+	margin-bottom: 25px; /*This adjusts the marhin left of all of the "pic" elements to 25 pixels.*/
+	width: 90%; /*This adjusts the width of all "pic" elements to 90%, making them smaller in width.*/
+	background-color: black; /*This changes the background color behind the picture to black.*/
+	box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2); } /*This sets the box shadow to a light grey*/
 
 .box {
-	margin-top: 20%;
-	display: block;
-	padding-left: 15px;
-	padding-right: 15px;
-	border: 2px solid #394b58;
-  border-radius: 7px;}
+	margin-top: 20%; /*This sets the margin of "box" elements of the top to 20% of its size.*/
+	display: block; /*This sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex.-->
+	padding-left: 15px; /*This sets the padding left of all "box" elements around the image to 15 pixels.*/
+	padding-right: 15px; /*this sets the padding right of all "box" elements around the image to 15 pixels.*/
+	border: 2px solid #394b58; /*This sets the border around all "box" elements to 2 pixels with a greyish color.*/
+  border-radius: 7px;} /*This changes the border radius to 7 pixels.*/
 
 .row {
-	content: "";
-	display: table;
-	clear: both; }
+	content: ""; /*--This changes the content's with elements labeled "row" with a blank space.*/
+	display: table; /*This displays a table*/
+	clear: both; } /*This makes it so that the row is clear for both*/
 
 .threeColumns {
-	float: left;
-	width: 33.33%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 0px;
-	padding-left: 15px; }
+	float: left; /*Allows the float property to specify how an element should float, in this case the left.*/
+	width: 33.33%; /*This shortens the list down to 33.3%.*/
+	padding-top: 0px; /*This makes the padding of the top 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right 15 pixels.*/
+	padding-bottom: 0px; /*This makes the padding of the bottom 0 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left 15 pixels.*/
 
 .columnLeft30 {
-	float: left;
-	width: 30%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: left; /*This sets the column30 to the left.*/
+	width: 30%; /*This sets the width to 30%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding left to 15 pixels.*/
 
 .columnLeft50 {
-	float: left;
-	width: 50%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: left; /*This sets the column50 to the left.*/
+	width: 50%; /*This sets the width to 50%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 0 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 0 pixels.*/
 
 .columnLeft70 {
-	float: left;
-	width: 70%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: left; /*This sets the column70 left.*/
+	width: 70%; /*This sets the width to 70%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 0 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 .columnRight30 {
-	float: right;
-	width: 30%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: right; /*This sets the column30 right.*/
+	width: 30%; /*This sets the width to 30%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 .columnRight50 {
-	float: right;
-	width: 50%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: right; /*This sets the column50 right.*/
+	width: 50%; /*This sets the width to 30%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 .columnRight70 {
-	float: right;
-	width: 70%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: right; /*This sets the column70 right.*/
+	width: 70%; /*This sets the width to 70%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 .content {
-  margin-left: 240px;
-  padding: 1px 16px;
-  height: 100%; }
+  margin-left: 240px; /*This sets the margin of the content to 240 pixels.*/
+  padding: 1px 16px; /*This sets the padding of the content to 1px wide and 16 pixels long.*/
+  height: 100%; } /*
 
 .blogNav {
-	margin-right: -16px;
-	float: right;
-	width: 30%;
-	height: 100%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px;
-	list-style-type: circle;
-  overflow: auto;
-	position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -o-sticky;
-  position: -ms-sticky;
-  position: sticky;
-  top: 10px;
-  z-index: 1;
-	background-color: #f1f1f1; }
+	margin-right: -16px; /*This sets the margin right to -16 pixels.*/
+	float: right; /*This sets the blog navigation bar to the right.*/
+	width: 30%; /*This sets the width of the navigation bar to 30%.*/
+	height: 100%; /*This sets the height to 100%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; /*This makes the padding of the left to 15 pixels.*/
+	list-style-type: circle; /*This sets the style to circle.*/
+  overflow: auto; /*This makes sets the blog navigation to auto.*/      
+	position: -webkit-sticky; /*This is an engine that modifies the mouse settings.*/
+  position: -moz-sticky; /*A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport.*/
+  position: -o-sticky; /*This the type of browser to adjust to the website.*/
+  position: -ms-sticky; /*This the type of browser to adjust to the website.*/
+  position: sticky; /*This the type of browser to adjust to the website.*/
+  top: 10px; /*This sets the top of the navigation bar to 10 pixels.*/
+  z-index: 1; /*The z-index property specifies the stack order of an element.*/
+	background-color: #f1f1f1; } /*This changes the background color.*/
 
 
 .blogPost {
-	float: left;
-	width: 70%;
-	padding-top: 0px;
-	padding-right: 15px;
-	padding-bottom: 10px;
-	padding-left: 15px; }
+	float: left; /*This changes the float all the way to the left of the screen.*/
+	width: 70%; /*This changes the width to 70%.*/
+	padding-top: 0px; /*This makes the padding of the top to 0 pixels.*/
+	padding-right: 15px; /*This makes the padding of the right to 15 pixels.*/
+	padding-bottom: 10px; /*This makes the padding of the bottom to 10 pixels.*/
+	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 a:link {
-	color: #2e6930;	}
+	color: #2e6930;	} /*This changes the link color.*/
 
 a:visited {
-	color: #2e6930; }
+	color: #2e6930; } /*This changes the visited link color.*/
 
 a:active {
-	color: blue; }
+	color: blue; } /*This changes the active link color.*/
 
 a:hover {
-	color: grey; }
+	color: grey; } /*This changes the hovered link color.*/
 
 
 ul.nav {
-	list-style-type: none;
-	margin: 0;
-  padding: 0;
-  width: 240px;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  top: 0;
-	box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.2);}
+	list-style-type: none; /*This changes the list style type to none.*/
+	margin: 0; /*This changes the navigation margin to 0.*/
+  padding: 0; /*This cahnges the padding to 0.*/
+  width: 240px; /*This changes the width to 240 pixels.*/
+  background-color: #f1f1f1; /*This change the background color of the navigation bar.*/
+  position: fixed; /*This fixes the navigation bar on the screen.*/
+  height: 100%; /*This changes the height to 100%.*/
+  overflow: auto; /*This changes the overflow values to auto.*/
+  top: 0; /*This cahnges the top to 0.*/
+	box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.2);} /*This changes the box shadowing of the navigation bar's color.*/
 
 ul.nav li a {
-  display: block;
-  color: #081108;
-  padding: 8px 16px;
-  text-decoration: none; }
+  display: block; /*This changes the display to a blocky shape.*/
+  color: #081108; /*this cahnges the display color.*/
+  padding: 8px 16px; /*This changes the padding to 8 by 16 pixels.*/
+  text-decoration: none; } /*This changes the text generation to none.*/
 
 ul.nav li a.active {
-  background-color: #2e6930;
-  color: grey; }
+  background-color: #2e6930; /*This changes the background color.*/
+  color: grey; } /*This changes the color to grey.*/
 
 ul.nav li a:hover {
-  background-color: #555;
-  color: blue; }
+  background-color: #555; /*This changes the background color.*/
+  color: blue; } /*This changes the color of the hover.*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) { /*This changes the screen to a max width of 1200 pixels.*/
   ul.nav {
-		width: 100%;
-		height: auto;
-		position: fixed;
-		top: 0; }
+		width: 100%; /*This changes the width to 100%.*/
+		height: auto; /*This changes the height to auto.*/
+		position: fixed; /*This changes the position of the screen to a fixed position.*/
+		top: 0; } /*This changes the top margin to 0.*/
 
   ul.nav li a {
-		float: left;
-		padding: 15px; }
+		float: left; /*This changes the links to the left.*/
+		padding: 15px; } /*This set the padding to 15 pixels.*/
 
 	div.content {
-		margin-top: 40px;
-		margin-left: 0; }
+		margin-top: 40px; /*This changes the margin of the content top to 40 pixels.*/
+		margin-left: 0; } /*This changes the margin of the content left to 0.*?
 
 	div.box {
-		margin-top: 10%;}}
+		margin-top: 10%;}} /*This changes the margin to 10%.*/
 
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 501px) { /*This changes the max width of the page to 501 pixels.*/
 	ul.nav {
-		position: relative;
-		top: 0; }
+		position: relative; /*This changes the position to relative.*/
+		top: 0; } /*This changes the top position to 0.*/
 
 	ul.nav li a {
-		text-align: center;
-		float: none; }
+		text-align: center; /*This changes the text align to the center.*/
+		float: none; } /*This changes the float to none.*/
 
 	div.content {
-		margin-top: 0;
-		margin-left: 0; }
+		margin-top: 0; /*This changes the margin of the top to 0.*/
+		margin-left: 0; } /*This changes the margin of the left to 0.*/
 
 	div.box {
-		margin-top: 0%; }
+		margin-top: 0%; } /*This changes the box margin to 0%.*/
 
 	div.blogPost {
-		width: 100%; }
+		width: 100%; } /*This changes the width of the blog post to 100%.*/
 
 	div.blogNav {
-		width: 0px;
-		height: 0px; }}
+		width: 0px; /*This changes the blog nav to 0 pixels.*/
+		height: 0px; }} /*This changes the height of the blog nav to 0 pixels.*/
