@@ -135,16 +135,16 @@ h6 {
 	padding-left: 15px; } /*This makes the padding of the left to 15 pixels.*/
 
 a:link {
-	color: White;	} /*This changes the link color.*/
+	color: #FFFFFF;	} /*This changes the link color.*/
 
 a:visited {
-	color: white; } /*This changes the visited link color.*/
+	color: #FFFFFF; } /*This changes the visited link color.*/
 
 a:active {
 	color: blue; } /*This changes the active link color.*/
 
 a:hover {
-	color: grey; } /*This changes the hovered link color.*/
+	color: #AFBBB0; } /*This changes the hovered link color.*/
 
 
 ul.nav {
