@@ -167,7 +167,7 @@ ul.nav li a {
 
 ul.nav li a.active {
   background-color: white; /*This changes the background color.*/
-  color: grey; } /*This changes the color to grey.*/
+  color: black; } /*This changes the color to grey.*/
 
 ul.nav li a:hover {
   background-color: #555; /*This changes the background color.*/
