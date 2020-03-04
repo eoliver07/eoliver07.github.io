@@ -166,8 +166,8 @@ ul.nav li a {
   text-decoration: none; } /*This changes the text generation to none.*/
 
 ul.nav li a.active {
-  background-color: white; /*This changes the background color.*/
-  color: black; } /*This changes the color to grey.*/
+  background-color: #FFFFFF; /*This changes the background color.*/
+  color: #000000; } /*This changes the color to grey.*/
 
 ul.nav li a:hover {
   background-color: #555; /*This changes the background color.*/
